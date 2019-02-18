@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+        <EditText
+                android:id="@+id/et_OldPs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_38"
+                android:layout_marginRight="@dimen/dp_38"
+                android:background="@null"
+                android:hint="@string/enter_old_password"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:textColorHint="#cdd0d5"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/sp_16"/>
+
+        <ImageView
+                android:id="@+id/iv_old_eye"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp_42"/>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/et_OldPs"
+                android:layout_marginLeft="@dimen/dp_32"
+                android:layout_marginRight="@dimen/dp_32"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@color/lineColor"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_12">
+
+        <EditText
+                android:id="@+id/et_NewPs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_38"
+                android:layout_marginRight="@dimen/dp_38"
+                android:background="@null"
+                android:hint="@string/enter_new_password"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:textColorHint="#cdd0d5"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/sp_16"/>
+
+        <ImageView
+                android:id="@+id/iv_new_eye"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp_42"/>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/et_NewPs"
+                android:layout_marginLeft="@dimen/dp_32"
+                android:layout_marginRight="@dimen/dp_32"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@color/lineColor"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_12">
+
+        <EditText
+                android:id="@+id/et_sure_newPs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_38"
+                android:layout_marginRight="@dimen/dp_38"
+                android:background="@null"
+                android:hint="@string/enter_sure_password"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:textColorHint="#cdd0d5"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/sp_16"/>
+
+        <ImageView
+                android:id="@+id/iv_sureNew_eye"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp_42"/>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/et_sure_newPs"
+                android:layout_marginLeft="@dimen/dp_32"
+                android:layout_marginRight="@dimen/dp_32"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@color/lineColor"/>
+    </RelativeLayout>
+
+
+    <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="5"/>
+
+    <Button
+            android:id="@+id/bt_modify"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_45"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:layout_marginRight="@dimen/dp_30"
+            android:background="@drawable/shape_login_bg"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_18"/>
+
+
+    <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+</LinearLayout>

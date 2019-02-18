@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="androidTheme" parent="BaseAppTheme">
+        <item name="android:listDivider">@drawable/rv_divider</item>
+    </style>
+
+    <!-- 启动界面 权限管理界面 主题 -->
+    <style name="startUpTheme" parent="BaseAppTheme">
+        <item name="android:windowBackground">@drawable/app_loading</item>
+        <item name="android:windowFullscreen">true</item> <!-- 全屏 -->
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">@color/txtSuperColor</item>
+    </style>
+
+    <style name="AppSplash" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:windowBackground">@mipmap/img_header</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/black</item>
+    </style>
+
+    <!--dialog总样式-->
+    <style name="NiceDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <!--NiceDialog默认动画-->
+    <style name="DefaultAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_slide_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_slide_bottom_out</item>
+    </style>
+
+    <!-- 表示控件默认的颜色colorControlNormal
+      colorControlActivated 表示控件被激活时的颜色 -->
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/darker_gray</item>
+        <item name="colorControlActivated">@color/lineColor</item>
+    </style>
+
+    <!-- 统一底部按钮样式 -->
+    <style name="unifyBottomBtn">
+        <item name="android:layout_marginBottom">@dimen/dp_30</item>
+        <item name="android:layout_marginLeft">@dimen/dp_35</item>
+        <item name="android:layout_marginRight">@dimen/dp_35</item>
+        <item name="android:background">@drawable/ripple_rect_arc</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+</resources>

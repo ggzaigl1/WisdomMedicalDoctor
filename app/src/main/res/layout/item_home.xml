@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="@dimen/dp_10">
+
+    <!--<CheckBox-->
+        <!--android:id="@+id/cb_home"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:theme="@style/My_CheckBox" />-->
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/txtSuperColor"
+        android:textSize="@dimen/sp_14" />
+
+    <TextView
+        android:id="@+id/tv_appointment_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/dp_14"
+        android:drawablePadding="6dp"
+        android:drawableStart="@mipmap/home_clock" />
+
+</RelativeLayout>

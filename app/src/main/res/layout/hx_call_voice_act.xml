@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:background="@color/statusBarColor2">
+
+    <!--通话界面最小化-->
+    <ImageButton
+            android:id="@+id/btn_exit_full_screen"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/ripple_square"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_fullscreen_exit_24dp"/>
+
+    <!--通话状态-->
+    <TextView
+            android:id="@+id/text_call_state"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:shadowColor="@color/vm_black_54"
+            android:text="@string/app_name"
+            android:textColor="@color/vm_white_87"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+    <LinearLayout
+            android:id="@+id/llUserHeadImg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dp_15"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3">
+
+        <!--当前通话的头像-->
+        <RelativeLayout
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:gravity="center">
+
+            <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/imgChatUser"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    app:srcCompat="@mipmap/doctor"/>
+
+        </RelativeLayout>
+
+        <!--当前通话的账户名-->
+        <TextView
+                android:id="@+id/text_call_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/app_name"
+                android:textColor="@color/vm_white_87"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+        <!--通话时间-->
+        <TextView
+                android:id="@+id/text_call_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:shadowColor="@color/vm_black_54"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:text="@string/app_name"
+                android:textColor="@color/vm_white_87"
+                android:visibility="gone"/>
+    </LinearLayout>
+
+
+    <!--麦克风开关-->
+    <ImageButton
+            android:id="@+id/btn_mic_switch"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="@dimen/dp_16"
+            android:background="@drawable/ripple_square"
+            app:layout_constraintBottom_toTopOf="@+id/llCallControl"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/btn_speaker_switch"
+            app:layout_constraintTop_toBottomOf="@+id/llUserHeadImg"
+            app:layout_constraintVertical_bias="0.4"/>
+
+    <!--扬声器开关-->
+    <ImageButton
+            android:id="@+id/btn_speaker_switch"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="@dimen/dp_16"
+            android:background="@drawable/ripple_square"
+            app:layout_constraintBottom_toTopOf="@+id/llCallControl"
+            app:layout_constraintLeft_toRightOf="@id/btn_mic_switch"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/llUserHeadImg"
+            app:layout_constraintVertical_bias="0.4"/>
+
+
+    <LinearLayout
+            android:id="@+id/llCallControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.9">
+
+        <!--接听通话-->
+        <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/fab_answer_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/ripple_square"
+                app:srcCompat="@drawable/svg_hx_phone_answer"/>
+
+        <!--结束通话-->
+        <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/fab_end_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/ripple_square"
+                android:visibility="gone"
+                app:srcCompat="@drawable/svg_hx_phone_hang_up"/>
+
+        <!--拒绝接听-->
+        <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/fab_reject_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:background="@drawable/ripple_square"
+                app:srcCompat="@drawable/svg_hx_phone_hang_up"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_dialog_add_use"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iv_dialog_add_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="@dimen/dp_10"
+            app:srcCompat="@drawable/svg_dialog_add_user_close"/>
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_dialog_person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"/>
+
+    <!--<com.hjy.wisdommedicaldoctor.widget.BaseWheelView-->
+            <!--android:id="@+id/wv_dialog_add_user"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"/>-->
+
+    <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/BgLine"/>
+
+    <!--<Button-->
+            <!--android:id="@+id/bt_dialog_add_user"-->
+            <!--android:layout_width="117dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_margin="20dp"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:background="@drawable/shape_add_sure_button"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="@dimen/sp_16"-->
+            <!--android:textStyle="bold"-->
+            <!--android:text="确定"/>-->
+</LinearLayout>

@@ -1,0 +1,200 @@
+<resources>
+    <string name="app_name">智慧医疗(医生端)</string>
+
+    <string name="home">首页</string>
+    <string name="enterConsultingRoom">进入诊室</string>
+    <string name="personalCenter">个人中心</string>
+    <string name="login">登录</string>
+    <string name="pad_login">密码登录</string>
+    <string name="verification_code">获取验证码</string>
+    <string name="please_enter_username">请输入用户名</string>
+    <string name="please_enter_phone">请输入手机号码</string>
+    <string name="please_enter_password">请输入密码</string>
+    <string name="please_enter_code">请输入验证码</string>
+    <string name="please_enter_email_address">请输入邮箱地址</string>
+    <string name="phone_login">手机验证登录</string>
+    <string name="register">注册</string>
+    <string name="register_successful">注册成功</string>
+    <string name="email">电子邮箱</string>
+    <string name="login_notice">账号尚未激活,是否重新发送激活邮件</string>
+    <string name="email_succeed">邮件发送成功</string>
+    <string name="email_failure">邮件发送失败</string>
+    <string name="health_information">健康资讯</string>
+    <string name="enter_new_password">请输入新密码</string>
+    <string name="enter_sure_password">请确认新密码</string>
+    <string name="enter_old_password">请输入旧密码</string>
+    <string name="username_or_pad_empty">用户名或密码为空</string>
+    <string name="email_empty">邮箱地址不能为空</string>
+    <string name="username_empty">用户名不能为空</string>
+    <string name="username_not">邮箱地址不合法</string>
+    <string name="new_psd_empty">新密码不能为空</string>
+    <string name="new_psd_empty_len">新密码长度不能少于6位</string>
+    <string name="code_empty">验证码不能为空</string>
+    <string name="sure_psd_empty">确认新密码不能为空</string>
+    <string name="sure_psd_empty_len">确认新密码长度不能少于6位</string>
+    <string name="password_reset_successful">重新设置密码成功</string>
+    <string name="two_passwords_not_match">两次新密码不一致</string>
+    <string name="pad_or_confirmationPas_empty">密码和确认密码不能为空</string>
+    <string name="passwords_or_confirmation_not_match">密码和确认密码不一致</string>
+
+    <string name="patient_manage">患者管理</string>
+    <string name="patient_detail">患者详情</string>
+    <string name="schedule">日程</string>
+    <string name="myOrder">我的订单</string>
+    <string name="orderParticulars">订单详情</string>
+    <string name="schedulingList">排班列表</string>
+    <string name="schedulingDetails">排班详情</string>
+	<string name="schedulingNew">新建排班</string>
+	<string name="schedulingModify">修改排班</string>
+
+    <string name="stop_diagnosis_publish">停诊发布</string>
+
+
+    <string name="setting">通用设置</string>
+    <string name="pushNotification">推送提醒</string>
+    <string name="passWordModify">密码修改</string>
+    <string name="opinionFeedback">意见反馈</string>
+    <string name="exitLogin">退出登录</string>
+    <string name="sureExit">确认退出登录吗？</string>
+    <string name="exit">退出</string>
+
+
+
+    <string name="personal">个人资料</string>
+    <string name="diaDetail">诊断详情</string>
+    <string name="eleMedicalRecord">电子病历</string>
+    <string name="medical_record">就诊记录</string>
+    <string name="certificate_management">上传证件</string>
+    <string name="shoot_standard">拍摄标准</string>
+    <string name="evaluations_doctor">患者详情</string>
+    <string name="charge_setting">费用设置</string>
+
+    <string name="registration">预约挂号</string>
+    <string name="online_inquiry">在线问诊</string>
+    <string name="personInfo">个人资料</string>
+    <string name="my_advice">我的咨询</string>
+    <string name="set_up">设置</string>
+    <string name="modify_password">修改密码</string>
+    <string name="feedback">意见反馈</string>
+    <string name="doctor_info">医生简介</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="nickname">昵称</string>
+    <string name="voice_time">就诊时间:</string>
+
+    <string name="please_nickname">请输入昵称</string>
+    <string name="please_person_name">请输入姓名</string>
+    <string name="person_name">姓名</string>
+    <string name="please_phone_number">请输入手机号码</string>
+    <string name="please_add_location">请输入居住地址</string>
+    <string name="please_good_at">请输入擅长内容</string>
+    <string name="good_at">擅长</string>
+    <string name="hospital">任职医院</string>
+    <string name="please_enter_phone_number">请输入正确的手机号码</string>
+
+
+    <string name="add_user">就诊人</string>
+    <string name="add_type_no">证件类型</string>
+    <string name="add_No">证件号码</string>
+    <string name="add_sex">性别</string>
+    <string name="add_date">出生日期</string>
+    <string name="add_phone">手机号码</string>
+    <string name="add_relationship">关系</string>
+    <string name="add_city">所在城市</string>
+    <string name="add_location">居住地址</string>
+    <string name="personal_profile">个人简介</string>
+    <string name="select_user">就诊人:</string>
+    <string name="department">科室</string>
+    <string name="professional">职称</string>
+
+    <string name="modify">修改</string>
+    <string name="system_title">系统提示</string>
+    <string name="is_delete">是否要删除</string>
+    <string name="back">返回</string>
+    <string name="delete">删除</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="dialog_title">提示</string>
+    <string name="next">下一步</string>
+    <string name="set">设置</string>
+    <string name="complete">完成</string>
+    <string name="update_password">修改密码成功,请重新登录</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="photograph">拍照</string>
+    <string name="select_photo">从照片中选择</string>
+
+
+    <string name="startAndStop">%1$s 至 %2$s</string>
+
+    <string name="ip_all_images">所有图片</string>
+    <string name="ip_folder_image_count">共%1$d张</string>
+    <string name="ip_preview_image_count">%1$d/%2$d</string>
+    <string name="ip_select_limit">最多选择%1$d张图片</string>
+    <string name="submit">提交</string>
+    <string name="ip_complete">完成</string>
+    <string name="ip_select_complete">完成(%1$d/%2$d)</string>
+    <string name="ip_preview">预览</string>
+    <string name="ip_preview_count">预览(%1$d)</string>
+    <string name="ip_photo_crop">图片裁剪</string>
+    <string name="ip_origin">原图</string>
+    <string name="ip_origin_size">原图(%1$s)</string>
+
+    <string name="call_version_inconsistent">Both call version are inconsistent</string>
+    <string name="switch_camera">Switch camera</string>
+    <string name="capture_image">Capture image</string>
+    <string name="network_unstable">Network unstable</string>
+    <string name="no_call_data">No call data</string>
+    <string name="accept_join_group">%s accept join group</string>
+    <string name="refuse_join_group">%s refuse join group</string>
+    <string name="at_your_in_group">%s @ you in group chat</string>
+    <string name="have_connected_with">Connected to the peer</string>
+
+    <string name="check_permission">开启拍照权限,方便拍摄相关信息</string>
+    <string name="touch_to_focus">触摸屏幕对焦</string>
+
+
+    <string name="servicePrice">服务价格</string>
+    <string name="unit">%1$s元/次</string>
+
+    <string name="gratuitous_setting">义诊设置</string>
+    <string name="imgTextInquisition">图文问诊</string>
+    <string name="everyDayGratuitousNum">每天义诊次数</string>
+    <string name="gratuitousNum">义诊次数</string>
+    <string name="num">次</string>
+    <string name="replaceNum">%1$s次</string>
+    <string name="tipsNum">必须填写义诊次数</string>
+    <string name="setScheduling">设置义诊排班</string>
+
+    <string name="gratuitous_scheduling">义诊排班</string>
+    <string name="selectTime">选择时间</string>
+    <string name="haveScheduling">已排班</string>
+    <string name="butScheduling">可排班</string>
+
+    <string name="startUsing">启用</string>
+    <string name="disable">停用</string>
+
+    <string name="timeFormat1">yyyy年MM月</string>
+
+
+    <string name="videoInterrogation">视频问诊</string>
+
+    <string name="session">会话</string>
+    <string name="chat">聊天</string>
+
+
+    <string name="loadingDelete">正在删除…</string>
+    <string name="deleteSuccess">删除成功</string>
+
+    <string name="loadingModify">正在修改…</string>
+    <string name="modifySuccess">修改成功</string>
+
+    <string name="loadingGet">正在获取...</string>
+    <string name="getSuccess">获取成功</string>
+
+    <string name="loadingSubmit">正在提交...</string>
+    <string name="successSubmit">提交成功！！！</string>
+    <string name="schedulingTime">请勾选排班时间</string>
+
+    <string name="hasScheduling">已排班</string>
+    <string name="canScheduling">可排班</string>
+</resources>

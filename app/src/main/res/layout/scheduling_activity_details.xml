@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tvTimeInterval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_rect"
+        android:drawablePadding="@dimen/dp_6"
+        android:paddingBottom="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_15"
+        android:paddingTop="@dimen/dp_10"
+        android:singleLine="true"
+        android:text="2018-06-23"
+        android:textColor="@color/txtSecondColor"
+        android:textSize="@dimen/dp_16"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvScheduling"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvStop"
+        app:layout_constraintTop_toBottomOf="@+id/tvTimeInterval" />
+
+    <Button
+        android:id="@+id/tvDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_45"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_rounded_rect_small"
+        android:text="删除"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/tvEdit" />
+
+    <Button
+        android:id="@+id/tvEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_45"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_rounded_rect_small"
+        android:text="编辑"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/tvDelete"
+        app:layout_constraintRight_toLeftOf="@+id/tvStop" />
+
+    <Button
+        android:id="@+id/tvStop"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_45"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_rounded_rect_small"
+        android:text="停用"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/tvEdit"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

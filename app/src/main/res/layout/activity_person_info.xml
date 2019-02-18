@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="none">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="center">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/iv_header"
+                android:layout_width="83dp"
+                android:layout_height="83dp"
+                android:background="@mipmap/doctor" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Ll_Nick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_12"
+            android:baselineAligned="false">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/nickname"
+                android:textColor="#afb2c4"
+                android:textSize="@dimen/dp_16" />
+
+            <TextView
+                android:id="@+id/tv_nick"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:textColor="@color/txtSuperColor"
+                android:textSize="@dimen/dp_16" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/lineColor" />
+
+        <LinearLayout
+            android:id="@+id/Ll_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_12">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/person_name"
+                android:textColor="#afb2c4"
+                android:textSize="@dimen/dp_16" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:textColor="@color/txtSuperColor"
+                android:textSize="@dimen/dp_16" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/lineColor" />
+
+        <LinearLayout
+            android:id="@+id/rl_sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_12">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/add_sex"
+                android:textColor="#afb2c4"
+                android:textSize="@dimen/dp_16" />
+
+            <TextView
+                android:id="@+id/tv_sex"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:drawableEnd="@drawable/svg_right_arrow"
+                android:gravity="right"
+                android:textColor="@color/txtSuperColor"
+                android:textSize="@dimen/dp_16"
+                tools:ignore="SpUsage,UnknownIdInLayout" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/lineColor" />
+
+        <LinearLayout
+            android:id="@+id/Ll_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_12">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/add_phone"
+                android:textColor="#afb2c4"
+                android:textSize="@dimen/dp_16" />
+
+            <TextView
+                android:id="@+id/tv_phone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:textColor="@color/txtSuperColor"
+                android:textSize="@dimen/dp_16" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/lineColor" />
+
+        <LinearLayout
+            android:id="@+id/Ll_dept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_12">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/department"
+                android:textColor="#afb2c4"
+                android:textSize="@dimen/dp_16" />
+
+            <TextView
+                android:id="@+id/tv_dept"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:textColor="@color/txtSuperColor"
+                android:textSize="@dimen/dp_16" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/lineColor" />
+
+        <LinearLayout
+            android:id="@+id/Ll_Hospital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_12">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/hospital"
+                android:textColor="#afb2c4"
+                android:textSize="@dimen/dp_16" />
+
+            <TextView
+                android:id="@+id/tv_hospital"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:textColor="@color/txtSuperColor"
+                android:textSize="@dimen/dp_16" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/lineColor" />
+
+        <LinearLayout
+            android:id="@+id/Ll_professional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_12">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/professional"
+                android:textColor="#afb2c4"
+                android:textSize="@dimen/dp_16" />
+
+            <TextView
+                android:id="@+id/tv_professional"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:textColor="@color/txtSuperColor"
+                android:textSize="@dimen/dp_16" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/lineColor" />
+
+
+        <LinearLayout
+            android:id="@+id/Ll_docInfo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="@dimen/dp_12">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/personal_profile"
+                android:textColor="#afb2c4"
+                android:textSize="@dimen/dp_16" />
+
+            <TextView
+                android:id="@+id/tv_docInfo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@null"
+                android:ellipsize="end"
+                android:gravity="right"
+                android:maxLines="2"
+                android:textColor="@color/txtSuperColor"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/dp_16" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/lineColor" />
+
+        <LinearLayout
+            android:id="@+id/Ll_goodAt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_12">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/good_at"
+                android:textColor="#afb2c4"
+                android:textSize="@dimen/dp_16" />
+
+            <TextView
+                android:id="@+id/tv_goodAt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@null"
+                android:ellipsize="end"
+                android:gravity="right"
+                android:maxLines="2"
+                android:textColor="@color/txtSuperColor"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/dp_16" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/lineColor" />
+    </LinearLayout>
+</ScrollView>

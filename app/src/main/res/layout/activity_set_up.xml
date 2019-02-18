@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:divider="@drawable/rv_divider"
+    android:orientation="vertical"
+    android:showDividers="middle">
+
+    <Switch
+        android:id="@+id/st_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_15"
+        android:singleLine="true"
+        android:switchMinWidth="0dp"
+        android:text="@string/pushNotification"
+        android:textColor="@color/txtSuperColor"
+        android:textOff=""
+        android:textOn=""
+        android:textSize="@dimen/dp_16"
+        android:thumb="@drawable/switch_thumb"
+        android:track="@drawable/switch_track" />
+
+    <TextView
+        android:id="@+id/tvModifyPs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_rect"
+        android:padding="@dimen/dp_15"
+        android:text="@string/passWordModify"
+        android:textColor="@color/txtSuperColor"
+        android:textSize="@dimen/dp_16" />
+
+    <TextView
+        android:id="@+id/tvFeedBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_rect"
+        android:padding="@dimen/dp_15"
+        android:text="@string/opinionFeedback"
+        android:textColor="@color/txtSuperColor"
+        android:textSize="@dimen/dp_16" />
+
+    <TextView
+        android:id="@+id/tvExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_rect"
+        android:padding="@dimen/dp_15"
+        android:text="@string/exitLogin"
+        android:textColor="@color/txtSuperColor"
+        android:textSize="@dimen/dp_16" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

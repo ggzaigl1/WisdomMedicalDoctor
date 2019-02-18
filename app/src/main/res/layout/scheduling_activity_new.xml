@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tagStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/dp_4"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/dp_10"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingTop="@dimen/dp_10"
+        android:singleLine="true"
+        android:text="选择开始日期"
+        android:textColor="@color/txtSecondColor"
+        android:textSize="@dimen/dp_16"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/tvStartDate" />
+
+    <TextView
+        android:id="@+id/tvStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/dp_6"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_15"
+        android:paddingTop="@dimen/dp_10"
+        android:singleLine="true"
+        android:text="2018-06-23"
+        android:textColor="@color/txtSecondColor"
+        android:textSize="@dimen/dp_16"
+        android:background="@drawable/ripple_rect"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintLeft_toRightOf="@+id/tagStartDate"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lineColor"
+        app:layout_constraintTop_toBottomOf="@+id/tagStartDate"/>
+
+    <TextView
+        android:id="@+id/tagEndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/dp_4"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/dp_10"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingTop="@dimen/dp_10"
+        android:singleLine="true"
+        android:text="选择结束日期"
+        android:textColor="@color/txtSecondColor"
+        android:textSize="@dimen/dp_16"
+        app:layout_constraintTop_toBottomOf="@+id/line"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/tvEndDate" />
+
+    <TextView
+        android:id="@+id/tvEndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/dp_6"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_15"
+        android:paddingTop="@dimen/dp_10"
+        android:singleLine="true"
+        android:text="2018-06-23"
+        android:textColor="@color/txtSecondColor"
+        android:textSize="@dimen/dp_16"
+        android:background="@drawable/ripple_rect"
+        app:layout_constraintTop_toBottomOf="@+id/line"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintLeft_toRightOf="@+id/tagEndDate"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvScheduling"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvCanMakeAppointment"
+        app:layout_constraintTop_toBottomOf="@+id/tagEndDate"/>
+
+
+    <TextView
+        android:id="@+id/tvMakeSuccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:drawablePadding="@dimen/spacing_small_much"
+        android:gravity="center"
+        android:paddingRight="@dimen/spacing_medium_small"
+        android:singleLine="true"
+        android:text="预约成功"
+        android:textColor="@color/txtSuperColor"
+        android:textSize="@dimen/txt_small"
+        app:layout_constraintBottom_toTopOf="@+id/tvConfirm"
+        app:layout_constraintRight_toLeftOf="@+id/tvCanMakeAppointment" />
+
+    <TextView
+        android:id="@+id/tvCanMakeAppointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:drawablePadding="@dimen/spacing_small_much"
+        android:gravity="center"
+        android:paddingRight="@dimen/spacing_medium_small"
+        android:singleLine="true"
+        android:text="可预约"
+        android:textColor="@color/txtSuperColor"
+        android:textSize="@dimen/txt_small"
+        app:layout_constraintBottom_toTopOf="@+id/tvConfirm"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/tvConfirm"
+        style="@style/unifyBottomBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorPersonal">#7F8CF5</color>
+    <!--主色-->
+    <color name="mainColor">#6f84f3</color>
+    <color name="colorCertificate">#88A2FF</color>
+    <color name="pressedColor">#d9e1fa</color>
+
+    <!-- 深色调 -->
+    <!-- 状态栏颜色 -->
+    <color name="statusBarColor">#6f8bef</color>
+    <color name="statusBarColor2">#3f485a</color>
+    <!-- 导航栏颜色 -->
+    <color name="navigationBarColor">#6f8bef</color>
+    <color name="navigationBarColor2">#3f485a</color>
+
+    <!-- 标题栏 彩色调 -->
+    <color name="titleBar">#6f8bef</color>
+    <!-- 标题栏 浅色调 -->
+    <color name="titleBarLight">#ffffff</color>
+
+    <!-- 可操作 颜色（可排班，可预约等） -->
+    <color name="operableColor">#e9effe</color>
+    <!-- 已操作 颜色（已排班，已预约等） -->
+    <color name="haveColor">#6f8cef</color>
+
+    <!-- 按钮点击 水波纹效果 颜色 -->
+    <color name="rippleColor">#ccefefef</color>
+
+    <color name="button_normal2">#FFFAF0</color>
+    <color name="button_pressed2">#cccccc</color>
+
+    <!-- 分割线颜色 -->
+    <color name="lineColor">#F5F5F5</color>
+    <color name="BgLine">#C7C7C7</color>
+    <color name="bgGray">#DBDBDB</color>
+    <!-- 不能点击按钮颜色 -->
+    <color name="noClickBtn">#596475</color>
+    <!-- 选择日期 日历图标颜色 -->
+    <color name="calendar">#ffb36f</color>
+    <color name="preview_mock">#9a000000</color>
+    <!-- 重要、警示 颜色 -->
+    <color name="tipsColor">#ee785f</color>
+</resources>
